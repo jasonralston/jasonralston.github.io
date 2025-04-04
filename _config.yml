@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Jason Ralston"
   pronouns         : "he/him"
-  bio              : "Assistant Professor of Economics at Whitman College"  # Update with your bio details
-  location         : "Whitman College"
+  bio              : "Assistant Professor of Economics"  # Update with your bio details
+  location         : "Walla Walla, WA"
   employer         : "Whitman College"
   uri              :  # URL (if applicable)
   email            : "ralstonj@whitman.edu" 
