@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jason Ralston's Academic Website"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Jason Ralston"
 description              : &description "Assistant Professor of Economics"
@@ -27,7 +27,7 @@ author:
   bio              : "Assistant Professor of Economics"  # Update with your bio details
   location         : "Walla Walla, WA"
   employer         : "Whitman College"
-  uri              :  # URL (if applicable)
+  uri              : 
   email            : "ralstonj@whitman.edu" 
 
   # Academic websites
