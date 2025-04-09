@@ -11,41 +11,47 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Economics, University of California Irvine, 2018
+* B.S. in Mathematics and Economics, University of Kansas, 2013
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2020 - Present: Assistant Professor
+  * Department of Economics
+  * Whitman College
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* July 2018 - June 2020: Postdocotoral Research Associate
+  * Department of Economics
+  * Hankamer Business School
+  * Baylor University
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<h3>Published Papers</h3>
+<ul>
+{% assign published = site.publications | where: "status", "published" | reverse %}
+{% for post in published %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+<h3>Submitted Papers</h3>
+<ul>
+{% assign submitted = site.publications | where: "status", "submitted" | reverse %}
+{% for post in submitted %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+<h3>Works in Progress</h3>
+<ul>
+{% assign wip = site.publications | where: "status", "wip" | reverse %}
+{% for post in wip %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
   
 Talks
 ======
