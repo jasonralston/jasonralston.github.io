@@ -35,7 +35,7 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ page.type }} <i>{{ page.venue }}</i> {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -43,6 +43,13 @@ layout: default
         {% endif %}    
         </header>
       {% endunless %}
+
+      {% if page.collection == 'teaching' and page.syllabusurl %}
+<p>
+  <a href="{{ page.syllabusurl }}" target="_blank" rel="noopener">Download Syllabus</a>
+</p>
+{% endif %}
+
 
       <section class="page__content" itemprop="text">
         {{ content }}
