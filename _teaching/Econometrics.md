@@ -1,9 +1,9 @@
 ---
 title: "Introduction to Econometrics"
 collection: teaching
-type: "Undergraduate course"
+type: 
 permalink: /teaching/Econometrics
-venue: "Whitman College"
+venue: 
 date: 2023-01-01
-location: "Walla Walla, Washington"
+location:
 ---
