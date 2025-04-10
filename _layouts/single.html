@@ -64,6 +64,12 @@ layout: default
 
 
       <section class="page__content" itemprop="text">
+          {% if page.excerpt %}
+            <div class="page__excerpt" style="font-style: italic;">
+              {{ page.excerpt | markdownify }}
+            </div>
+          {% endif %}
+        
         {{ content }}
 
         {% if page.status == "submitted" or page.status == "wip" %}
