@@ -21,6 +21,6 @@ culpability.'
 date: 2025-03-06
 venue: 'Review of Law and Economics (Revise and Resubmit)'
 paperurl:
-citation: 
+citation: Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
 status: submitted
 ---
