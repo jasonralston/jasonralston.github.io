@@ -6,6 +6,6 @@ excerpt: 'How does restricting prosecutorial discretion affect the criminal just
 date: 2025-02-23
 venue: 'Social Choice and Welfare (Revise and Resubmit)'
 paperurl:
-citation: 
+citation: Stanton Hudja, Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
 status: submitted
 ---
