@@ -6,6 +6,6 @@ excerpt:
 date: 2025-04-09
 venue: 
 paperurl:
-citation: 
+citation: Mamunuru, Sai; Ralston, Jason
 status: wip
 ---
