@@ -6,6 +6,11 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<p>
+  <a href="{{ site.baseurl }}/files/Ralston_CV_2025.pdf" target="_blank" rel="noopener">
+    Download CV (PDF)
+  </a>
+</p>
 
 {% include base_path %}
 
