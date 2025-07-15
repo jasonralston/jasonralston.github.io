@@ -21,6 +21,6 @@ culpability.'
 date: 2025-07-11
 venue: 'Review of Law and Economics'
 paperurl: https://www.degruyterbrill.com/document/doi/10.1515/rle-2024-0053/html
-citation: Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
+citation: 'Ralston, Jason; Aimone, Jason; Rentschler, Lucas; North, Charles, North. (2025). &quot;Bias, Trust, and Trustworthiness: An Experimental Study of Post Justice System Outcomes.&quot; <i>Review of Law and Economics</i>.'
 status: published
 ---
