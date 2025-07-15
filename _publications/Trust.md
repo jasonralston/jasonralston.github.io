@@ -18,8 +18,8 @@ observed statistical discrimination against those who have been accused.
 Our results raise serious concerns about the practice of using criminal
 records in hiring, as convictions are often poor indicators of actual
 culpability.'
-date: 2025-05-01
-venue: 'Review of Law and Economics (Accepted)'
+date: 2025-07-11
+venue: 'Review of Law and Economics'
 paperurl: https://www.degruyterbrill.com/document/doi/10.1515/rle-2024-0053/html
 citation: Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
 status: published
