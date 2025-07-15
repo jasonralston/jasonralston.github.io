@@ -20,7 +20,7 @@ records in hiring, as convictions are often poor indicators of actual
 culpability.'
 date: 2025-05-01
 venue: 'Review of Law and Economics (Accepted)'
-paperurl:
+paperurl: https://www.degruyterbrill.com/document/doi/10.1515/rle-2024-0053/html
 citation: Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
 status: published
 ---
