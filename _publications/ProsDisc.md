@@ -7,5 +7,5 @@ date: 2025-02-23
 venue: 'Social Choice and Welfare (Revise and Resubmit)'
 paperurl:
 citation: Stanton Hudja, Jason Ralston, Jason Aimone, Lucas Rentschler, and Charles North
-status: submitted
+status: accepted
 ---
