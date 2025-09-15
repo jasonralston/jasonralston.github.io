@@ -41,6 +41,15 @@ Publications
 {% endfor %}
 </ul>
 
+<h3>Accepted &amp; Forthcoming</h3>
+<ul>
+{% assign accepted = site.publications | where: "status", "accepted" 
+   | sort: "accepted_on" | reverse %}
+{% for post in accepted %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
 <h3>Submitted Papers</h3>
 <ul>
 {% assign submitted = site.publications | where: "status", "submitted" | reverse %}
