@@ -13,11 +13,13 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign statuses = "published,submitted,wip" | split: ',' %}
+{% assign statuses = "accepted,published,submitted,wip" | split: ',' %}
 {% for status in statuses %}
   {% assign filtered_publications = site.publications | where: "status", status %}
   {% if filtered_publications.size > 0 %}
-    {% if status == "published" %}
+    {% if status == "accepted" %}
+      <h2>Accepted & Forthcoming</h2>
+    {% elsif status == "published" %}
       <h2>Published Papers</h2>
     {% elsif status == "submitted" %}
       <h2>Submitted Papers</h2>
